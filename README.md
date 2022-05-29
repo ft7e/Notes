@@ -8,6 +8,10 @@
 
 ## 3. Code 301 - Intermediate Software Development
 
-#### SQL
+[SQL](SQL_Notes/README.md)
+[git Practice](gitPractice/README.md)
+[Typing Practice](typing/README.md)
 
 ## 4. Code 401 - Advanced Software Development
+
+[TDD](TDD/README.md)
