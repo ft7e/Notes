@@ -21,3 +21,5 @@
 [REST API](Express-RestApi/README.md)
 
 [Linked List](LinkedList/README.md)
+
+[sequelize](sequelize/README.md)
