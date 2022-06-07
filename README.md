@@ -23,3 +23,5 @@
 [Linked List](LinkedList/README.md)
 
 [sequelize](sequelize/README.md)
+
+[Sequelize Normalizastion](sequelize-normalization/README.md)
