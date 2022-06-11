@@ -25,3 +25,5 @@
 [sequelize](sequelize/README.md)
 
 [Sequelize Normalizastion](sequelize-normalization/README.md)
+
+[Authentication](Authentication/README.md)
