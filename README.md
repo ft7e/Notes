@@ -27,3 +27,5 @@
 [Sequelize Normalizastion](sequelize-normalization/README.md)
 
 [Authentication](Authentication/README.md)
+
+[Bearer Authentication](Bearer/README.md)
