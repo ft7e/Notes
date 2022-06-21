@@ -16,7 +16,7 @@ class Stack {
    this.stack.pop();
  }
 }
-```
+
 
 # Queues
 
