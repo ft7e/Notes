@@ -26,6 +26,8 @@
 
 [Sequelize Normalizastion](sequelize-normalization/README.md)
 
+[Sequelize Trial](Sequelize-Trial/README.md)
+
 [Authentication](Authentication/README.md)
 
 [Bearer Authentication](Bearer/README.md)
