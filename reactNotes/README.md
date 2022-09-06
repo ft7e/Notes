@@ -41,3 +41,22 @@ console.log(data)
 - pass this function to FORM : `<Form passFormData={getFormData} />`
 
 - use it in FORM : `props.passFormData(formData)`
+
+## conditional rendering
+
+- if part of the code only will change we do this :
+
+**put the edge case in a variable and then if statement to change it if the condition applies and render the variable itself**
+
+`let expensesContent = <p>No items were found</p>;`
+`if (filteredExpenses.length > 0) { expensesContent = filteredExpenses.map((expense) => ( <ExpenseItem key={expense.id} title={expense.title} amount={expense.amount} date={expense.date} />`
+
+- if the whole component will change, we can use if statement and return the whole new thing we wanna render :
+
+`if(filteredExpenses.length === 0){ return <h2>No items were found</h2> }`
+
+- if we can only 2 components or a small number we can do this :
+  ` js {hideForm && ( <button type='button' onClick={hideFormHandler}> Add New Expense </button> )}`
+  `{!hideForm && <ExpenseForm onSaveExpenseData={saveExpenseDataHandler} />}`
+
+  **the '&' will only continue if it's true so we coop it with the state**
