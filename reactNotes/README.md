@@ -56,7 +56,7 @@ console.log(data)
 `if(filteredExpenses.length === 0){ return <h2>No items were found</h2> }`
 
 - if we can only 2 components or a small number we can do this :
-  ` js {hideForm && ( <button type='button' onClick={hideFormHandler}> Add New Expense </button> )}`
+  ` {hideForm && ( <button type='button' onClick={hideFormHandler}> Add New Expense </button> )}`
   `{!hideForm && <ExpenseForm onSaveExpenseData={saveExpenseDataHandler} />}`
 
   **the '&' will only continue if it's true so we coop it with the state**
