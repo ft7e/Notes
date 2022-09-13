@@ -55,3 +55,5 @@
 [Multiple-Reducers](Multiple-Reducers/README)
 
 [Async Logic and Data Fetching](Async-Logic/README.md)
+
+[Redux Toolkit](Redux-Toolkit/README)
